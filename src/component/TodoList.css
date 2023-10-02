@@ -1,0 +1,44 @@
+div {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+}
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+button.delete {
+  background-color: #f44336;
+  margin: 5px;
+  color: #fff;
+}
+
+button.edit,
+button.save,
+button.add {
+  background-color: #674ed3;
+  margin: 5px;
+  color: #fff;
+}
